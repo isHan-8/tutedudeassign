@@ -1,0 +1,76 @@
+/* src/components/Home.css */
+
+.home-container {
+    background-image: linear-gradient(#00d5ff, #0095ff, rgba(93, 0, 255, 0.555));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .logout-button {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .search-section, .results-section, .recommendations-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .user-table, .friend-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .friend-table th, .user-table td, .friend-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .user-table th, .friend-table th {
+    background-color: #f8f9fa;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
